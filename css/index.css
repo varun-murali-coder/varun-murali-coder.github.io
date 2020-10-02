@@ -59,10 +59,19 @@ body{
 	
 }
 
+
+
+.clock{
+	font-size:30px;
+	text-align: center;
+	color: blue;
+	
+}
 @media only screen and (max-width:750px)  and (min-width:300px){
 .header{
 	background-size: 650px 825px;
 	height: 100vh;
+	position: relative;
 
 }
 .heading-primary-main{
