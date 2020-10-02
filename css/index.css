@@ -25,7 +25,7 @@ body{
 
 .header{
 	height: 100vh;
-	background-image: linear-gradient(to right bottom,rgba(13, 29, 10, 0.3),rgba(40,180,131,0.3)),url('../img/home.jpg');
+	background-image: linear-gradient(to right bottom,rgba(13, 29, 10, 0),rgba(40,180,131,0)),url('../img/home.jpg');
 	background-position:top;
 	background-size: cover;
     position: relative;
