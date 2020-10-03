@@ -292,10 +292,8 @@ top:80%;
 
 @media screen and (max-width: 375px) {
     .clock-item {
-        width: 10%;
+        width: 8%;
     }
-    .countdown-container {
-
-    }
+   
    
 }
