@@ -39,7 +39,7 @@ body{
 	font-size: 60px;
 	font-weight:400;
     display: inline-block;
-    font-family: 'cursive';
+    font-family: 'cursive',sans-serif;
     text-transform: capitalize;
 }
 
@@ -293,10 +293,8 @@ top:80%;
 @media screen and (max-width: 375px) {
     .clock-item {
         width: 10%;
+        display: inline-block;
     }
-    .countdown-container {
-        transform: translateY(-160px);
-
-    }
+   
    
 }
