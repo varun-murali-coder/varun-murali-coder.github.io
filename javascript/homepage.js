@@ -17,9 +17,9 @@ function showTime(){
     let min=Math.floor(delta/60)%60;
     delta-=min*60;
     let seconds=delta%60;
-    document.getElementById("days_left").innerHTML=days+" days";
-    document.getElementById("hours").innerHTML=hours+" H";
-    document.getElementById("mins").innerHTML=min+" M";
-    document.getElementById("secs").innerHTML=seconds.toFixed(0)+" S";
+    document.getElementById("days_left").innerHTML=days;
+    document.getElementById("hours").innerHTML=hours;
+    document.getElementById("mins").innerHTML=min;
+    document.getElementById("secs").innerHTML=seconds.toFixed(0);
 }
 showTime();

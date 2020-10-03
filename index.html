@@ -38,15 +38,59 @@
 <div class="header">
   <div class="text-box">
 <h1 class="heading-primary">
-<span class="heading-primary-main">Save&nbsp;The&nbsp;Date</span>
+<span class="heading-primary-main">Vijitha Gopi&nbsp;<span class="glyphicon glyphicon-heart"></span>&nbsp;Arun Kumar Nair</span>
 <span class="heading-primary-sub">&nbsp;Let&nbsp;The&nbsp;CountDown&nbsp;Begin!</span>
   </h1> 
-  <div class="clock">
-    <span id="days_left" style="border: 2px solid white;width:120px;border-radius: 50%; padding:7px"></span>
-    <span  id="hours" style="border: 2px solid white;width:150px;border-radius: 50%;padding:5px"></span>
-    <span  id="mins" style="border: 2px solid white;width:180px;	border-radius: 50%;padding:5px"></span>
-    <span  id="secs" style="border: 2px solid white;width:210px;	border-radius: 50%;padding:5px"></span>
+
+<div class="countdown-container">
+  <div>
+    <div class="clock-item clock-days countdown-time-value ">
+      <div class="wrap">
+        <div class="inner">
+          <div id="canvas-days" class="clock-canvas"><div class="kineticjs-content" role="presentation" style="position: relative; display: inline-block; width: 125px; height: 125px;"><canvas width="125" height="125" style="padding: 0px; margin: 0px; border: 0px; background: transparent; position: absolute; top: 0px; left: 0px; width: 125px; height: 125px;"></canvas></div></div>
+          <div class="text">
+            <p class="val" id="days_left"></p>
+            <p class="type-days type-time">days</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clock-item clock-hours countdown-time-value">
+      <div class="wrap">
+        <div class="inner">
+          <div id="canvas-hours" class="clock-canvas"><div class="kineticjs-content" role="presentation" style="position: relative; display: inline-block; width: 125px; height: 125px;"><canvas width="125" height="125" style="padding: 0px; margin: 0px; border: 0px; background: transparent; position: absolute; top: 0px; left: 0px; width: 125px; height: 125px;"></canvas></div></div>
+          <div class="text">
+            <p class="val" id="hours"></p>
+            <p class="type-hours type-time">hours</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clock-item clock-minutes countdown-time-value">
+      <div class="wrap">
+        <div class="inner">
+          <div id="canvas-minutes" class="clock-canvas"><div class="kineticjs-content" role="presentation" style="position: relative; display: inline-block; width: 125px; height: 125px;"><canvas width="125" height="125" style="padding: 0px; margin: 0px; border: 0px; background: transparent; position: absolute; top: 0px; left: 0px; width: 125px; height: 125px;"></canvas></div></div>
+          <div class="text">
+            <p class="val" id="mins"></p>
+            <p class="type-minutes type-time">minutes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clock-item clock-seconds countdown-time-value">
+      <div class="wrap">
+        <div class="inner">
+          <div id="canvas-seconds" class="clock-canvas"><div class="kineticjs-content" role="presentation" style="position: relative; display: inline-block; width: 125px; height: 125px;"><canvas width="125" height="125" style="padding: 0px; margin: 0px; border: 0px; background: transparent; position: absolute; top: 0px; left: 0px; width: 125px; height: 125px;"></canvas></div></div>
+          <div class="text">
+            <p class="val" id="secs"></p>
+            <p class="type-seconds type-time">seconds</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+<!--Testing end-->
   </div>
 
 </div>
