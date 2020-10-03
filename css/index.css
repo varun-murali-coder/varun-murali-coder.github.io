@@ -275,10 +275,7 @@ top:80%;
     .clock-item {
         width: 10%;
     }
-    .wrap {
-        height: 125px;
-        width: 125px;
-    }
+   
 }
 
 @media screen and (max-width: 480px) {
@@ -289,21 +286,14 @@ top:80%;
         transform: translateY(-160px);
 
     }
-    .wrap {
-        height: 125px;
-        width: 125px;
-    }
+    
    
 }
 
 @media screen and (max-width: 375px) {
     .clock-item {
         width: 10%;
-        display: inline-block;
     }
-    .wrap {
-        height: 125px;
-        width: 125px;
-    }
+    
    
 }
